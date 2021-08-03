@@ -1,0 +1,152 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: white;
+}
+
+.header_section {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    top: 0px;
+}
+
+.logo{
+    position: absolute;
+    left: 20px;
+    top: 15px;
+}
+
+.logo img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.comp_name{
+    position: absolute;
+    top: 5px;
+    left: 90px;
+    color: white;
+    text-shadow: 2px 2px 2px purple;
+}
+
+.navigation {
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    top: 70px;
+    font-size: 22px;
+
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    margin-left: 700px;
+
+}
+.navigation li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 5px;
+    text-decoration: none;
+    font-size: 15px;
+
+}
+.navigation li{
+    float: left;
+}
+
+.navigation li a:hover{
+    background-color: #111;
+    text-decoration: underline;
+    color: purple;
+    font-size: 15.5px;
+}
+
+.main{
+    position: absolute;
+    left: 22%;
+    top: 200px;
+    padding: 5px;
+    width: 700px;
+    height: auto;
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 20px;
+
+}
+.Footer_section {
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    top: 700px;
+    /* margin-bottom: 20px; */
+    background-color: black;
+}
+.siteinfo {
+    position: absolute;
+    /* top: 20px; */
+    left: 100px;
+    width: 300px;
+    height: 200px;
+    font-size: 18px;
+    color: white;
+}
+.siteinfo a {
+    color: white;
+    text-decoration: none;
+}
+.siteinfo a:hover{
+    color: purple;
+}
+.download{
+    position: absolute;
+    left: 350px;
+    width:300px;
+    height: 200px;
+    font-size: 18px;
+    color: white;
+}
+.download a {
+color: white;
+text-decoration: none;
+}
+
+.download a:hover{
+    color: purple;
+}
+
+.socials {
+    position: absolute;
+    left: 650px;
+    width:300px;
+    height: 200px;
+    font-size: 18px;
+    color: white;
+}
+.socials a {
+    color: white;
+    text-decoration: none;  
+}
+.socials a:hover {
+    color: purple;
+}
+.address {
+    position: absolute;
+    left: 950px;
+    width:200px;
+    height: 200px;
+    font-size: 18px;
+    text-align: justify ;
+    color: white; 
+}

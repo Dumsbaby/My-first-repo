@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Data Forms</title>
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <style type="text/css">
+    
+    </style>
+
+    </head>
+    <body>
+<br/>
+<h2>Sweet Treat Registration Form:</h2>
+
+<hr/>
+   
+    <form>
+        <label>Full Name:</label>
+        <input type="text" name="Fullname" placeholder="surname first" required><br/><br/> 
+
+        <label>Email:</label>
+        <input type="email" name="email" required><br/><br/>
+
+        <label> Username:</label>
+        <input type="text" name="Username" placeholder="type in username here" maxlength="10"><br/><br/>
+
+        <label>Password: </label>
+        <input type="password" name="password" placeholder="Not less than 8 characters" required><br/><br/>
+
+        <label>Quantity:</label>
+        <input  type="number" name="quantity" value="1" min="1" max="10"><br/><br/>
+
+        <Label>Gender:</label><br/>
+        <input type="radio" name="gender" value="male"> Male <br/>
+        <input type="radio" name="gender" value="female"> Female <br/>
+        <input type="radio" name="gender" value="other"> Other <br/>
+        <br/>
+
+        <label>Language:</label><br/>
+        <input type="checkbox" name="language" value="Python">Python<br/>
+        <input type="checkbox" name="language" value="C#">C#<br/>
+        <input type="checkbox" name="language" value="Php">PHP<BR/>
+        <input type="checkbox" name="language" value="Javascript">Javascript<br/>
+        <br/>
+
+        <label>Phone types:</label>
+        <select name="Phones">
+            <option value="Iphone">Iphone</option><br/>
+            <option value="Samsung">Samsung</option><br/>
+            <option value="Techno">Techno</option><br/>
+            <option value="Hauwei">Hauwei</option>
+        </select>
+
+        <br/><br/>
+        <br/><br/>
+
+        <input type="Submit" name="submit" value="Signup">
+    </form>
+    
+    </body>
+</html>
